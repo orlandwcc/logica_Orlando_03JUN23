@@ -28,6 +28,70 @@ int main(){
     
     //Crear una variable que almacene un nimero entero.
 
-    int Minumero=15;
+    //int Minumero=15;
+
+    /*
+    Tambien puede asignar una variable sin asignar el valor y colocarlo mas tarde
+    */
+    
+    // Declaracion de la variale
+    //int mynum;
+
+    //Signamos el valor de la vairable
+    //mynum = 15;
+
+    /*
+    si intentamos imprimir una vairable en c no va a ocurrir nada, si no le damos el formato especifico
+    */
+
+    /*int mynum = 15;
+    printf(mynum); //nada va a ocurrir)
+    */
+    
+    /*
+    para imprimir o hacer uso de variables en C debemos familiarizarnos con los especificadores de formato"
+    */
+
+    //especificadores de formato
+
+    /*
+    Los especificadores de formato se usan con la funcion "printf()" para decirle al compilador que tipo de datos esta almacenando la variable 
+    
+    Un especificador de formato comienza con un signo de %, seguido de un caracter.
+
+    por ejemplo para generar el valor de una variable int, debe usar el especificador %d o %i y estar entre comillas dobles, dentro de la funcion printf ()
+    */
+/* 
+    int minumero=15;
+    printf("%d", minumero); //la salida es 20 */
+
+    //para imprimir otros tipos, use %c para char y %f para float
+
+    //decimal o de coma flotante
+    /* float minumerodecimal =9.33;
+
+    //para un caracter
+    char miletra='n';
+
+    //impresion de variables
+    printf("%f\n", minumerodecimal);
+    printf("%c\n", miletra); */
+
+    /*
+    para combinar textos y variables, separelos con una coma dentro de la funcion printf
+    */
+
+    /* int minumero =50;
+    printf("mi numero favorito es el: %d", minumero);
+    */
+
+    /*para imprimir diferentes tipos de variables en un solo printf() se puede hacer lo siguiente: */
+
+    int minumero =30;
+    char miletra ='l';
+
+    printf("mi numero es: %d Y mi letra es %c", minumero, miletra);
+
+
 return 0;
 }
