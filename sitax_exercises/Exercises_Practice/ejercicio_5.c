@@ -2,7 +2,7 @@
 5. Hacer una funcion que diga si un numero es primo
 */
 
-# include <stdio.h>
+#include <stdio.h>
 
 int main() {
 	int n, x, num=0;
@@ -20,7 +20,7 @@ int main() {
 			x++;
 		}
 		if (count==2) {
-			printf("El numero %i es primo\n", num);
+			printf("[%i]\t ", num);
 			n--;
 		}
 	}

@@ -5,7 +5,7 @@
 int main() {
 	int n, c, i;
 	int temp, elem;
-	printf(" Ingrese la cant. de elementos del arreglo unidimencional:\n");
+	printf(" Ingrese la cant. de elementos del arreglo unidimencional: ");
 	/* 1) Leer y validar n */
 	scanf("%i",&n);
 	if (n<=1) {
@@ -15,7 +15,7 @@ int main() {
 		int A[n];
 		/* 3) Llenar Arreglo */
 		for (i=0;i<n;i++) {
-			printf(" Ingrese elementos del arreglo[%d]\n",i);
+			printf(" Ingrese elementos del arreglo[%d]: ",i);
 			scanf("%d",&elem);
 			A[i]=elem;
 		}
@@ -36,10 +36,10 @@ int main() {
 				}
 			}
 		}
-		printf("*** Arreglo ordenado en forma ascendente ***\n");
+		printf("\n*** Arreglo ordenado en forma ascendente ***\n");
 		for (i=0;i<n;i++) {
 			printf(" [%d]\t ",A[i]);
 		}
-  }
-  return 0;
+    }
+return 0;
 }
